@@ -1,0 +1,429 @@
+﻿/* BARRA DE PESQUISA */
+.pesquisa{
+	width:50%; margin: 20px 25%;
+}
+.pesquisa input[type="text"]{
+	width:90%;
+	padding:6px;
+	font-size:18px;
+	border: solid 1px #000000;
+	border-color: #A9A9A9;
+}
+.pesquisa button[type="submit"]{
+    cursor:pointer;
+	background-repeat:no-repeat;
+	font-family:Tahoma;
+	background-color:#ffffff;
+	padding:4px 0px;
+	border:none;
+	border-color: #ff4500;
+}
+
+
+
+.carrinho img{
+	    float:left;
+		max-width: 40px; 
+		margin: -60px  1000px;
+}
+.imagemusuario img{
+	    float:left;
+		max-width: 40px; 
+		margin: -59px  1000px;
+		
+}
+
+
+/* BANNER NO TOPO DA PAGINA */
+.logowebphone{
+	margin: 0 2%; padding: 0;
+}
+.logowebphone img{
+	width:100%;
+}
+.imagemusuario img{
+	    float:left;
+		max-width: 40px; 
+		margin: -59px  1067px;
+		
+}
+
+/* MENU PRINCIPAL */
+.menu{
+  margin: 0;
+}
+
+/* ITENS DO MENU */
+ul { 
+    padding:1px;
+    list-style-type: none;
+    margin: 50px  31% ;
+    overflow: hidden;
+  	font-family: arial;
+	font-weight: Bold;
+	font: black;
+}
+
+li {
+	float: left; 
+	text-decoration:none;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: #696969;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.dropbtn:hover{
+	color: #ff4500; 
+	text-decoration:none;
+ }
+ 
+li.menu {
+    display: inline-block;
+}
+
+/* SUBITENS DO MENU */
+.menu-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;	
+}
+
+.menu-content a {
+    color: #696969;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.menu-content a:hover {
+	background-color: #f1f1f1; 
+	color:#ff4500; 
+	text-decoration:none;
+}
+
+.menu:hover .menu-content {
+    display: block;
+}
+
+
+/* CARROSSEL */
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 70%;
+      margin: 10px auto;   
+  }
+
+  
+/* CELULARES MAIS VENDIDOS */
+/* OFERTA IPHONE */
+ 
+  #vendidos{
+	padding: 50px 100px;
+	font-weight: bold;
+	font-size: 24px;
+	color: #545454;
+	margin: 10px auto;
+	border-top: solid 1px #E6E8FA;
+}
+
+/* DESCRIÇÃO OFERTA IPHONE */
+
+
+/* RODAPÉ */
+
+#icones_rodape{
+	display:block;
+	margin: 0 0 0 35%;
+}
+#icones_rodape a{         
+	margin: 0;
+	border: none;
+}
+.img-rodape{
+	width:30%;
+	margin:0 7px;
+	padding:0;
+	float:left;
+}
+.img-rodape img{
+	width:330%;
+}
+.rodape{
+	width:40%;
+	background-color:#f2f2f2;
+	float: left;
+	
+}
+.rodape p {
+	font-size:8px;
+	font-weight: bold;
+	color: #000000; 
+    text-align: center;
+}
+.principal{
+	border:1px solid #ffffff;
+	width:100%;
+	margin:0;
+	padding:2%;
+	float:left;
+  }
+
+.vendido{
+	padding:15px;
+	width:280px; 
+	height:460px; 
+	background-color:#fff; 
+	float:left; 
+	margin: 0 4% 0 2%;
+    border-radius:1%; 
+    margin-bottom:3%; 
+    border:solid 1px #dddddd;
+    display:block;
+}
+.vendido img{
+	width: 250px; 
+	height:250px;
+	border-radius:7px 7px 0 0;
+}
+.vendido:hover{
+	border:solid 1px #a5a5a5;
+}
+.inner a{
+	font-size:1.5em;
+	color:#130400;
+	font-weight:700;
+}
+.vendido .inner a{
+	visibility:hidden;
+	text-decoration:none;	
+	cursor:pointer;
+	background-color:#edeaea;
+	font-size:1.2em;
+	color:#130400;
+	font-weight:600;
+}
+.vendido:hover .inner a{
+	visibility:visible;
+    color:#ff4500;
+}
+
+.inner p{
+	padding:0; 
+	font-size:18px; 
+	color:#130400; 
+	line-height:1.5em;
+	font-weight:600;
+}
+.inner h2{
+	color:#424242;
+	font-size:25px; 
+	line-height:1.5em;
+	font-weight:700;
+}
+.inner h4{
+	font-size:1.2em;
+	color:#130400;
+}
+.inner p{
+	background-color:#00ff00; 
+	border-radius:5px;
+	width:80px; 
+	font-size:18px; 
+	text-align:center;
+	margin-top:2%;
+	color:#130400; 
+	line-height:1.5em;
+	font-weight:600;
+}
+.carrinho {
+	width: 80%;
+    height:100%;	
+	float: left; 
+ 	background-color:#ffffff;
+	margin:auto 10% 0 10%;
+	padding-bottom:4%;
+	display:block;
+		
+}
+.tabela-carrinho{
+	text-align:center;
+	margin:5%;
+	width:60%;
+	height:auto;
+	border-collapse: collapse;
+	border:1px solid #424242;
+}
+.tabela-carrinho td{
+	border:1px solid #424242;
+	padding:5px;
+}
+.tabela-carrinho td input{
+	text-align:center;
+	background:#f9f7f7;
+	width:30px;
+	
+}
+} 
+
+.atualizar-carrinho{
+	display:block;
+	
+}
+.atualizar-carrinho button{
+	margin-left:5%;
+	width: 150px; 
+	color:#000000;
+	background-color:#ccc8c7;
+	font-size:18px;
+	padding:0;
+	cursor:pointer;
+	outline: 0;
+	font-weight:bold;
+}
+.atualizar-carrinho button:hover{
+	 
+	background-color:#f74a1b; 
+}
+
+@media only screen and (max-width: 1023px){
+
+.logowebphone{
+width:100%;
+margin:0;
+}
+ul { 
+	display:flex;
+    padding:1px;
+    margin: 2% 5%;
+	font-size:12px;
+}
+li a, .dropbtn {
+    color: #696969;
+    padding:2px;
+    text-decoration: none;
+}
+.menu-content {
+    min-width: 20px;
+ }
+
+.menu-content a {
+    padding: 8px 5px;
+    text-decoration: none;
+  
+}
+.atualizar-carrinho button{
+	margin-left:4%;
+	
+}
+#vendidos{
+	padding:0;
+	font-size: 20px;
+	text-align:center;
+	
+}
+.pesquisa{
+	width:80%; margin: 5% 5%;
+}
+.pesquisa input[type="text"]{
+	width:90%;
+	padding:0;
+	font-size:18px;
+	border: solid 1px #000000;
+	border-color: #A9A9A9;
+}
+.pesquisa button[type="submit"]{
+    cursor:pointer;
+	background-repeat:no-repeat;
+	font-family:Tahoma;
+	background-color:#ffffff;
+	padding:4px 0px;
+	border:none;
+	border-color: #ff4500;
+}
+.rodape p {
+	font-size:8px;
+}
+#icones_rodape{
+	display:flex;
+	margin: 0 0 0 2%;
+}
+#icones_rodape a{         
+	margin: 2% 0;
+	border: none;
+}
+.img-rodape img{
+	height:165px;
+}
+.vendido .inner a{
+	visibility:visible;
+	
+}
+.carrinho {
+	margin:0;
+}
+.tabela-carrinho td{
+	padding:2px;
+}
+}
+@media only screen and (min-width: 1024px){
+	.rodape p {
+	font-size:15px;
+	font-weight: bold;
+	color: #000000; 
+    text-align: center;
+}
+}
+#area{
+  width:380px;/*largura do mesmo tamanho da largura da imagem*/
+  height:auto;/*altura automatica de acordo com o tamanho da imagem com o tamanho da miniatura*/
+  margin:20px 100px;
+	
+ 
+}
+
+.tela{
+width:380px;/*largura do mesmo tamanho da largura da imagem*/
+height:auto;
+overflow:hidden;
+}
+.grande{
+  display: flex;
+  width: 250%;
+  transition: all .8s;
+}
+
+label img{
+   width:124px;
+   cursor:pointer;
+   float:left;
+   opacity: 0.5;
+   transition: all .4s;
+}
+label img:hover{
+	
+	opacity: .9;
+}
+#img2:checked ~ .tela .grande{
+   margin-left:-100%;
+}
+
+#img3:checked ~ .tela .grande{
+   margin-left:-200%;
+}
+input[name="foto"]{
+   display:none;
+}
+
+input[name="foto"]:checked + label img{
+  opacity: .9;
+}
+}
